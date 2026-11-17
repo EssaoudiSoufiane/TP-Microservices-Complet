@@ -1,0 +1,146 @@
+{
+  "applications": {
+    "versions__delta": "1",
+    "apps__hashcode": "UP_3_",
+    "application": [
+      {
+        "name": "GATEWAY",
+        "instance": [
+          {
+            "instanceId": "localhost:GATEWAY:8888",
+            "hostName": "192.168.56.1",
+            "app": "GATEWAY",
+            "ipAddr": "192.168.56.1",
+            "status": "UP",
+            "overriddenStatus": "UNKNOWN",
+            "port": {
+              "$": 8888,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1794926615820,
+              "lastRenewalTimestamp": 1794926615820,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1794926615820
+            },
+            "metadata": {
+              "management.port": "8888"
+            },
+            "homePageUrl": "http://192.168.56.1:8888/",
+            "statusPageUrl": "http://192.168.56.1:8888/actuator/info",
+            "healthCheckUrl": "http://192.168.56.1:8888/actuator/health",
+            "vipAddress": "GATEWAY",
+            "secureVipAddress": "GATEWAY",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1794926615820",
+            "lastDirtyTimestamp": "1794926615683",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "SERVICE-CAR",
+        "instance": [
+          {
+            "instanceId": "localhost:SERVICE-CAR:8082",
+            "hostName": "192.168.56.1",
+            "app": "SERVICE-CAR",
+            "ipAddr": "192.168.56.1",
+            "status": "UP",
+            "overriddenStatus": "UNKNOWN",
+            "port": {
+              "$": 8082,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1794926617107,
+              "lastRenewalTimestamp": 1794926617107,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1794926617107
+            },
+            "metadata": {
+              "management.port": "8082"
+            },
+            "homePageUrl": "http://192.168.56.1:8082/",
+            "statusPageUrl": "http://192.168.56.1:8082/actuator/info",
+            "healthCheckUrl": "http://192.168.56.1:8082/actuator/health",
+            "vipAddress": "SERVICE-CAR",
+            "secureVipAddress": "SERVICE-CAR",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1794926617107",
+            "lastDirtyTimestamp": "1794926617047",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "SERVICE-CLIENT",
+        "instance": [
+          {
+            "instanceId": "localhost:SERVICE-CLIENT:8081",
+            "hostName": "192.168.56.1",
+            "app": "SERVICE-CLIENT",
+            "ipAddr": "192.168.56.1",
+            "status": "UP",
+            "overriddenStatus": "UNKNOWN",
+            "port": {
+              "$": 8081,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1794926617017,
+              "lastRenewalTimestamp": 1794926617017,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1794926617017
+            },
+            "metadata": {
+              "management.port": "8081"
+            },
+            "homePageUrl": "http://192.168.56.1:8081/",
+            "statusPageUrl": "http://192.168.56.1:8081/actuator/info",
+            "healthCheckUrl": "http://192.168.56.1:8081/actuator/health",
+            "vipAddress": "SERVICE-CLIENT",
+            "secureVipAddress": "SERVICE-CLIENT",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1794926617017",
+            "lastDirtyTimestamp": "1794926616974",
+            "actionType": "ADDED"
+          }
+        ]
+      }
+    ]
+  }
+}
